@@ -28,6 +28,7 @@ class MainController extends AbstractController
         ]);
     }
 
+
     #[Route('/user', name: 'user', methods: ['POST'])]
     public function User(Request $request): JsonResponse
     {
